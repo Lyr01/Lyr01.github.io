@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js"></script>
+    <title>Khan Hamza Portfolio</title>
+</head>
+<body>
+
+    <!-- Navbar section -->
+    <navbar class="navbar">
+        <ul class="link-group">
+            <li class="link"><a href="#Home">Home</a></li>
+            <li class="link"><a href="#About-Me">About</a></li>
+            <li class="link"><a href="#Projects">Projects</a></li>
+            <li class="link"><a href="#Skills">Skills</a></li>
+            <li class="link"><a href="#Contact">Contact</a></li>
+        </ul>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li class="link"><a href="#Home">Home</a></li>
+                <li class="link"><a href="#About-Me">About</a></li>
+                <li class="link"><a href="#Projects">Projects</a></li>
+                <li class="link"><a href="#Skills">Skills</a></li>
+                <li class="link"><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </navbar> 
+    
+    <!-- home section -->
+    <a name='Home'></a>
+    <section class="home-section active">
+        <h1 class="hero-heading">hello, i am <br> Hamza</h1>
+        <img src="img/me.svg" class="home-img" alt="my foto">
+    </section>
+
+    
+    <!-- about section -->
+    <a name='About-Me'></a>
+    <section class="about-section">
+        <div class="about">
+            <h1 class="heading">About Me</h1>
+            <p class="about-info">My name is Hamza Khan i'am 20 years old, i was born in Pakistan and
+                when i was only 6 i moved to Italy. I did all the school in Italy and
+                I graduated from ITIS Hertz with the <strong>highest grade 100/100</strong>, it was
+                was an eletrical and automation school.<br><br><br>
+    
+                Now i'm learing Web Devoloping from Star2Impact, i learn a lot from them i'm very greatfull. 
+                In the next section you can see the project i did with them. </p>
+        </div>
+    </section>
+
+
+    <!-- project section -->
+    <a name='Projects'></a>
+    <section class="project-section">
+        <h1 class="heading">some of my projects</h1>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="img/finalproject.PNG" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">Full Stack Project</h1>
+                    <p class="project-info">
+                        This was my final project for Start2Impact, it's a full stack web application, 
+                        with Login,Registration,Like,Dislike and more function. I was Inspired by Twitter.
+                    </p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github"><a href="https://github.com/Lyr01/Progetto-Finale-Full-Stack-Hamza-Khan">github repo</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/NodeProject.PNG" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">Node Project</h1>
+                    <p class="project-info">
+                        This is a Project For Star2Impact, it's a Node and React Project for reporting Pollutions by uploading foto with multer. 
+                    </p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github"><a href="https://github.com/Lyr01/Progetto-Nodejs-di-Hamza-Khan">github repo</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/ReactProject.PNG" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">React Project</h1>
+                    <p class="project-info">
+                        This is a Project For Star2Impact, it's a React Project using Google Book API.        
+                    </p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github"><a href="https://github.com/Lyr01/progetto-react-di-hamza-khan">github repo</a></button>
+                        <button class="project-btn live"><a href="https://cerca-libro.web.app/">see live</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/JavaScriptProject.PNG" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">JavaScript Project</h1>
+                    <p class="project-info">
+                        This is a Project for Start2Impact, this was one of the project for JavaScript i did, it's a web page for the meteo using an API. I was only at the begging of this fantascti adventure.
+                    </p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github"><a href="https://github.com/Lyr01/inquinamento-delle-citta">github repo</a></button>
+                        <button class="project-btn live"><a href="https://inquinamento-8d5f2.web.app/">see live</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- skills -->
+    <a name='Skills'></a>
+    <div class="skill-section">
+        <h1 class="heading">skills</h1>
+        <div class="skills-container">
+            <div class="skill-card">
+                <img src="img/html.png" class="skill-img" alt="">
+                <div class="skill-level">✓</div>
+                <h1 class="skill-name">HTML</h1>
+                <p class="skill-info">HTML (Hypertext Markup Language) is the code that is used to structure a web page and its content.</p>
+            </div>
+            <div class="skill-card">
+                <img src="img/css.png" class="skill-img" alt="">
+                <div class="skill-level">✓</div>
+                <h1 class="skill-name">Css</h1>
+                <p class="skill-info">Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML. 
+                    CSS describes how elements should be rendered on screen, on paper, in speech, or on other media</p>
+            </div>
+            <div class="skill-card">
+                <img src="img/js.png" class="skill-img" alt="">
+                <div class="skill-level">✓</div>
+                <h1 class="skill-name">JavaScript</h1>
+                <p class="skill-info">JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive.</p>
+            </div>
+            <div class="skill-card">
+                <img src="img/reactjs.png" class="skill-img" alt="">
+                <div class="skill-level">✓</div>
+                <h1 class="skill-name">ReactJs</h1>
+                <p class="skill-info">React. js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications. 
+                    It's used for handling the view layer for web and mobile apps. React also allows us to create reusable UI components</p>
+            </div>
+            <div class="skill-card">
+                <img src="img/nodejs.png" class="skill-img" alt="">
+                <div class="skill-level">✓</div>
+                <h1 class="skill-name">NodeJs</h1>
+                <p class="skill-info">Node. js is a platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications.</p>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Footer -->
+    <a name='Contact'></a>
+    <div class='footer'>
+        <h2>That's enough about me, let's talk about you!</h2>
+        <h3>If you like what you see and want to chat please contact me!</h3>
+        <br><a href = "mailto: hamzakhan8895@hotmail.com">Hamza Khan Email</a>
+
+        <div class='social'>
+          <a href='https://www.facebook.com/profile.php?id=100003158888345'/><img class='fac' src="img/facebook.png"/>
+          <a href='https://twitter.com/Kalador01'/><img class='twi' src="img/twitter.png"/>
+          <a href='https://www.instagram.com/khan_hamza2001/'/><img class='inst' src="img/instagram.png"/>
+        </div>
+    </div>
+</body>
+</html>
