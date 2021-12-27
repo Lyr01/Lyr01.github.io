@@ -340,7 +340,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: #081929;
+	background-color: #0f141a;
 	text-align: center;
 }
 
@@ -348,6 +348,7 @@ body {
 h3 {
 	text-align: center;
 	opacity: 0.5;
+	color: #fff;
 	font-size: 26px;
 	line-height: 30px;
 }
