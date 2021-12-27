@@ -368,7 +368,7 @@ h3 {
 	width: 53px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 900px) {
 	.link-group {
 		display: flex;
 		list-style: none;
